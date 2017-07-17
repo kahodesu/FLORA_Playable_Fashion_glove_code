@@ -1,5 +1,7 @@
+#include <Keyboard.h>// FOR KEYBOARD STROKE
+    
 //PLAYABLE FASHION GLOVE CODE
-//REVISED vERSION 2/17/2015 
+//REVISED ERSION 2/17/2015 
 //based on button example 
 //http://www.arduino.cc/en/Tutorial/Button
 
@@ -29,7 +31,7 @@ void loop(){
       digitalWrite(ledPin, HIGH);
   } else {
     // turn LED off:
-    Keyboard.release(' ');
+    Keyboard.release(' ');//FOR KEYBOARD STROKE
     digitalWrite(ledPin, LOW); 
   }
 }
